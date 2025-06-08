@@ -1109,11 +1109,7 @@ GameObject:
   - component: {fileID: 812092204}
   - component: {fileID: 812092202}
   - component: {fileID: 812092201}
-  - component: {fileID: 812092209}
-  - component: {fileID: 812092208}
-  - component: {fileID: 812092207}
-  - component: {fileID: 812092206}
-  - component: {fileID: 812092205}
+  - component: {fileID: 812092198}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1121,6 +1117,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &812092198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812092197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04362a6273b6ef44e9c9d356c24040e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidade: 5
+  forcaPulo: 6.5
+  pontoChao: {fileID: 375756334}
+  raioChao: 0.1
+  camadaChao:
+    serializedVersion: 2
+    m_Bits: 8
+  limiteInferior: -10
+  vidas: 3
+  proximaCena: Fase02
+  tempoEsperaTransicao: 2
 --- !u!50 &812092201
 Rigidbody2D:
   serializedVersion: 5
@@ -1202,78 +1221,6 @@ Transform:
   - {fileID: 375756334}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &812092205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 812092197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6032571b4e69fc40ba4606464d136db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  forcaPulo: 6.5
-  pontoChao: {fileID: 375756334}
-  raioChao: 0.1
-  camadaChao:
-    serializedVersion: 2
-    m_Bits: 8
---- !u!114 &812092206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 812092197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f7f208664c967049bc76da78f01ea7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 5
---- !u!114 &812092207
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 812092197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 696f762289d0ed5449de19e00b031cd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  proximaCena: Fase02
-  tempoEsperaTransicao: 2
---- !u!114 &812092208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 812092197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c67d5b66e0d89e47a40a88d3ba78962, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &812092209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 812092197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a535e8d72ef024845b654551a3b522a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vidas: 3
-  limiteInferior: -10
-  tempoEsperaTransicao: 2
 --- !u!1 &814214524
 GameObject:
   m_ObjectHideFlags: 0
