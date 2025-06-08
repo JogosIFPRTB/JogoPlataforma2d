@@ -69,7 +69,3 @@ Contribuições são bem-vindas!
 Abra uma issue ou envie um pull request com melhorias, correções ou sugestões.
 
 ---
-
-## 🙌 Contribuições
-
-Contribuições são bem-vindas!
